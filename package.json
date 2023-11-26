@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write '{**/*.{js,jsx,ts,tsx,json,css,scss,md},src/**/*.{js,jsx,ts,tsx,json,css,scss,md},test/**/*.{js,jsx,ts,tsx,json,css,scss,md}}'",
+    "prettier:watch": "onchange '{**/*.{js,jsx,ts,tsx,json,css,scss,md},src/**/*.{js,jsx,ts,tsx,json,css,scss,md},test/**/*.{js,jsx,ts,tsx,json,css,scss,md}}' -- prettier --write {{changed}}"
   },
   "dependencies": {
     "next": "14.0.3",
