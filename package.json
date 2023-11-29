@@ -18,6 +18,7 @@
     "@mui/material": "^5.14.18",
     "@mui/x-data-grid": "^6.18.2",
     "next": "14.0.3",
+    "onchange": "^7.1.0",
     "react": "^18",
     "react-dom": "^18"
   },
