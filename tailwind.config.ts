@@ -17,8 +17,8 @@ const config: Config = {
   },
   plugins: [],
   //* เพื่อไม่ให้ tailwind ทับ style ของ mui ต้องปิด preflight ทิ้ง
-  // corePlugins: {
-  //   preflight: false,
-  // },
+  corePlugins: {
+    preflight: false,
+  },
 }
 export default config
