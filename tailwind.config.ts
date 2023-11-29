@@ -16,11 +16,9 @@ const config: Config = {
     },
   },
   plugins: [],
-  /* the problem is due to preflight action in tailwind directives. 
-  @base directive overrides the mui styles! Here is the solution. 
-  based on official MUI doc, you should **disable peflight** in tailwind.config.js file */
-  corePlugins: {
-    preflight: false,
-  },
+  //* เพื่อไม่ให้ tailwind ทับ style ของ mui ต้องปิด preflight ทิ้ง
+  // corePlugins: {
+  //   preflight: false,
+  // },
 }
 export default config
